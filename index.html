@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+
+    <!--Não foi eu que fiz, mas quis postar para caso eu tenha duvidas ou esquecer de algo já tenho salvo 😘-->
+    <section>
+        <div class="form-caixa">
+            <div class="form-conteudo">
+                <form action="infor.php" method="post" autocomplete="on">
+                    <h2>Login</h2>
+                    <div class="box">
+                        <ion-icon name="mail"></ion-icon>
+                        <input type="email" required>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="box">
+                        <ion-icon name="lock"></ion-icon>
+                        <input type="password" required min="8" max="20">
+                        <label for="">senha</label>
+                    </div>
+                    <div class="esquecer">
+                        <label for=""><input type="checkbox">Esqueceu a senha, <a href="#">recupere aqui</a></label>
+                    </div>
+                    <button>Entrar</button>
+                    <div class="register">
+                        <p>Não possui conta, <a href="#">registre-se aqui</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+</html>
